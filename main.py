@@ -3,7 +3,7 @@
 
 from optparse import OptionParser
 import gapi
-#import julius
+import julius
 import docomo_chat
 import osx_say
 
@@ -33,8 +33,7 @@ def main():
     if recog_system == "google":
         recog = gapi.googleRecog()
     elif recog_system == "julius":
-        #recog = julius.juliusRecog()
-        a = 1
+        recog = julius.juliusRecog()
     else:
         print "ERROR: 認識システムの指定がおかしいです"
     

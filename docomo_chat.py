@@ -4,7 +4,7 @@ import urllib2
 import json
 from ast import literal_eval
 
-APY_KEY = "INPUT_YOUR_API_KEY"
+API_KEY = "INPUT_YOUR_API_KEY"
 
 class docomoChat():
     def __init__(self):
